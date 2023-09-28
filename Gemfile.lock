@@ -100,6 +100,9 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-bootstrap-views (1.1.0)
+    erb-formatter (0.4.3)
+      syntax_tree (~> 6.0)
     erubi (1.12.0)
     execjs (2.9.1)
     ffi (1.15.5)
@@ -146,6 +149,7 @@ GEM
     orm_adapter (0.5.0)
     pg (1.5.4)
     popper_js (2.11.8)
+    prettier_print (1.2.1)
     psych (5.1.0)
       stringio
     public_suffix (5.0.3)
@@ -217,6 +221,8 @@ GEM
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
     stringio (3.0.8)
+    syntax_tree (6.2.0)
+      prettier_print (>= 1.2.0)
     thor (1.2.2)
     tilt (2.3.0)
     timeout (0.4.0)
@@ -254,6 +260,8 @@ DEPENDENCIES
   capybara
   debug
   devise
+  devise-bootstrap-views (~> 1.0)
+  erb-formatter
   importmap-rails
   jbuilder
   pg

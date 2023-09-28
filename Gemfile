@@ -26,10 +26,14 @@ gem "jbuilder"
 
 # Authentication gem
 gem "devise"
+gem 'devise-bootstrap-views', '~> 1.0'
 
 # Bootstrap gem installation
 gem "bootstrap"
 gem "sassc-rails"
+
+# ERB Formatter
+gem 'erb-formatter'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
