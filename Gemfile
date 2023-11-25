@@ -35,6 +35,10 @@ gem "sassc-rails"
 # ERB Formatter
 gem 'erb-formatter'
 
+# AlphaVantage API
+gem 'alphavantage'
+gem 'httparty'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
