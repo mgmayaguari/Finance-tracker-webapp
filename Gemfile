@@ -39,6 +39,9 @@ gem 'erb-formatter'
 gem 'alphavantage'
 gem 'httparty'
 
+# Font Awesome gem for faicon
+gem "font-awesome-rails"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
